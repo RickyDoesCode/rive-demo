@@ -1,0 +1,27 @@
+name: rivedemo
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  # I added the flare library and didn't mention version so it's latest version
+  flare_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # I added all files inside assets folder here
+  assets:
+   - assets/
